@@ -1,0 +1,31 @@
+INSERT INTO org (orgName, des, meetingTimes, contact, memberNo, dues, audience) VALUES 
+('ACM', 'You''re a CS student you should know! ', 'TTh 1-4pm', 'Jeffrey Miller', 100, 80, 'B');
+
+INSERT INTO org (orgName, des, meetingTimes, contact, memberNo, dues, audience) VALUES 
+('IEEE', 'You''re an EE student you should know! ', 'TTh 1-4pm', 'Redekopp', 100, 80, 'B');
+
+INSERT INTO Stu_Org (userID, orgID) VALUES (1, 1);
+INSERT INTO Stu_Org (userID, orgID) VALUES (1, 2);
+INSERT INTO Stu_Org (userID, orgID) VALUES (2, 1);
+INSERT INTO Stu_Org (userID, orgID) VALUES (2, 2);
+
+INSERT INTO announcements(date_posted, userID, orgID, an_text) VALUES (NOW(), 1, 1, 'test announcements');
+INSERT INTO comments(date_posted, userID, orgID, com_text) VALUES (NOW(), 1, 1, 'test announcements');
+
+studentID 8998927235
+fname Calvin
+lname Leung
+nickname Calvin
+pw 1234
+major Computer Science
+yearOf 2017
+uscName yuikwanl
+
+studentID 1234567890
+fname Jeffrey
+lname Miller
+nickname Miller
+pw 1234
+major Computer Science
+yearOf 2000
+uscName jmiller
